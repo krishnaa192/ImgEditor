@@ -1,8 +1,6 @@
 from flask import Flask,render_template,redirect,request
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
-from PIL import Image
-import img2pdf
 import os
 import cv2
 
