@@ -71,4 +71,4 @@ def edit():
     return  render_template('index.html')
 
 
-app.run(debug=True)
+app.run(debug=False,port=0.0.0.0)
