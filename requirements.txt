@@ -1,7 +1,7 @@
 gunicorn==19.7.1
 Flask ==3.0.0
 opencv-python==4.8.1.78
-gunicorn -b 0.0.0.0:$PORT main:app
+
 
 
 
