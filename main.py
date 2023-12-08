@@ -45,6 +45,7 @@ def allowed_file(filename):
 
 
 def home():
+    print("Hello")
     return render_template("index.html")
 
 @app.route("/about")
